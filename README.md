@@ -42,17 +42,17 @@ SQL : like %狂神说%，如果是的大数据，就十分慢!索引!ElasticSear
 
 1998年9月4日，Google公司在美国硅谷成立。正如大家所知，它是一家做搜索引擎起家的公司。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps10.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps23.jpg) 
 
 无独有偶，一位名叫Doug Cutting的美国工程师，也迷上了搜索引擎。他做了一个用于文本搜索的函数库（姑且理解为软件的功能组件），命名为Lucene。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps11.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps24.jpg) 
 
 Lucene是用JAVA写成的，目标是为各种中小型应用软件加入全文检索功能。因为好用雨且开源(代码公开），非常受程序员们的欢迎。
 
 早期的时候，这个项目被发布在Doug Cutting的个人网站和SourceForge (一个开源软件网站)。后来，2001年底，Lucene成为Apache软件基金会jakarta项目的一个子项目。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps12.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps25.jpg) 
 
 2004年，Doug Cutting再接再励，在Lucene的基础上，和Apache开源伙伴Mike Cafarella合作，开发了一款可以代替当时的主搜索的开源搜索引擎，命名为Nutch。
 
@@ -66,7 +66,7 @@ Nutch在业界的影响力比Lucene更大。
 
 尤其是Google，作为互联网搜索引擎，需要存储大量的网页，并不断优化自己的搜索算法，提升搜索效率。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps13.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps26.jpg) 
 
 在这个过程中，Google确实找到了不少好办法，并且无私地分享了出来。
 
@@ -74,17 +74,17 @@ Nutch在业界的影响力比Lucene更大。
 
 第二年，也就是2004年，Doug Cutting基于Google的GFS论文，实现了分布式文件存储系统，并将它命名为NDFS ( NutchDistributed File system )。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps14.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps27.jpg) 
 
 还是2004年，Google又发表了一篇技术学术论文，介绍自己的MapReduce编程模型。这个编程模型，用于大规模数据集（大于1TB)的并行分析运算。
 
 第二年(2005年)，Doug Cutting又基于MapReduce，在Nutch搜索引擎实现了该功能。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps15.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps28.jpg) 
 
 2006年，当时依然很厉害的Yahoo(雅虎）公司，招安了Doug cutting。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps16.jpg)
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps29.jpg)
 加盟Yahoo之后，Doug Cutting将NDFS和MapReduce进行了升级改造，并重新命名为Hadoop (NDFS也改名为HDFS ，HadoopDistributed File System )。
 
 这个，就是后来大名鼎鼎的大数据框架系统―—Hadoop的由来。而Doug Cutting，则被人们称为Hadoop之父。
@@ -93,7 +93,7 @@ Nutch在业界的影响力比Lucene更大。
 
 Hadoop这个名字，实际上是Doug Cutting他儿子的黄色玩具大象的名字。所以，Hadoop的Logo，就是一只奔跑的黄色大象。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps17.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps30.jpg) 
 
 我们继续往下说。
 
@@ -101,7 +101,7 @@ Hadoop这个名字，实际上是Doug Cutting他儿子的黄色玩具大象的�
 
 这次，它们介绍了自己的BigTable。这是一种分布式数据存储系统，一种用来处理海量数据的非关系型数据库。Doug Cutting当然没有放过，在自己的hadoop系统里面，引入了BigTable，并命名为HBase。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps18.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps31.jpg) 
 
 好吧，反年就是紧跟Google时代步伐，你出什么，我学什么。所以，Hadoop的核心部分，基本上都有Google的影子。
 
@@ -207,7 +207,7 @@ Lucene是一个全文检索引擎的架构。那什么是全文搜索引擎﹖
 
 当单纯的对已有数据进行搜索时，Solr更快:
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps19.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps32.jpg) 
 
  
 
@@ -223,13 +223,13 @@ Lucene是一个全文检索引擎的架构。那什么是全文搜索引擎﹖
 
 当实时建立索引时，Solr会产生io阻塞，查询性能较差， Elasticsearch具有明显的优势:
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps20.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps33.jpg) 
 
 随着数据量的增加，Solr的搜索效率会变得更低，而Elasticsearch却没有明显的变化:
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps21.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps34.jpg) 
 
-转变我们的搜索基础设施后从Solr Elasticsearch,我们看见一个即时~50 x提高搜索性能!![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps22.jpg)
+转变我们的搜索基础设施后从Solr Elasticsearch,我们看见一个即时~50 x提高搜索性能!![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps35.jpg)
 
  
 
@@ -246,3 +246,45 @@ Elastfcsearch vs solr总结
 . Solr是传统搜索应用的有力解决方案，但Elasticsearch更适用于新兴的实时搜索应用。
 
 6、Solr比较成熟，有一个更大，更成熟的用户、开发和贡献者社区，而Elasticsearch相对开发维护者较少，更新太快，学习使用成本较高。（趋势!)
+
+ 
+
+***\*Windors下安装：\****
+
+***\*官网下载ES和Kibana：\****[***\*https://www.elastic.co/\****](https://www.elastic.co/)
+
+ 
+
+1、解压文件即可
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps36.jpg) 
+
+2、熟悉目录
+
+bin启动文件
+
+config配置文件
+
+log4j2 日志配置文件
+
+jvm.options  java虚拟机相关的配置
+
+elasticsearch .yml elasticsearch 的配置文件!默认9200端口!跨域!
+
+ 
+
+lib相关jar包logs日志
+
+modules功能模块
+
+plugins插件!ik分词器
+
+ 
+
+3、打开bin目录下的elasticsearch.bat，启动访问端口9200
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps37.jpg) 
+
+4、访问测试
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps38.jpg) 
