@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe4f33da-4184-429c-8365-d640badcd385" name="Default Changelist" comment="ES在Windos上部署完成，明天部署在docker上" />
+    <list default="true" id="fe4f33da-4184-429c-8365-d640badcd385" name="Default Changelist" comment="head可视化了搜索引擎，ik分词器安装完毕">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +67,7 @@
       <workItem from="1617983139166" duration="8000" />
       <workItem from="1617983176023" duration="31000" />
       <workItem from="1617983880674" duration="1634000" />
-      <workItem from="1618031358173" duration="1716000" />
+      <workItem from="1618031358173" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="对ES的创始人还有ES和Soular的关系有了一定了解">
       <created>1617984020779</created>
@@ -87,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617990238213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="head可视化了搜索引擎，ik分词器安装完毕">
+      <created>1618040441596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618040441596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,12 +119,13 @@
     <MESSAGE value="对ES的创始人还有ES和Soular的关系有了一定了解" />
     <MESSAGE value="了解了Lucene演变成ES的过程，对ES和Solar的区别更加深入了" />
     <MESSAGE value="ES在Windos上部署完成，明天部署在docker上" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES在Windos上部署完成，明天部署在docker上" />
+    <MESSAGE value="head可视化了搜索引擎，ik分词器安装完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="head可视化了搜索引擎，ik分词器安装完毕" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617990253217">
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1618040456923">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1617990253217" />
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1618040456923" />
   </component>
 </project>
