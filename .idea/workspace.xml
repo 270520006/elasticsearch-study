@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe4f33da-4184-429c-8365-d640badcd385" name="Default Changelist" comment="ES在Windos上部署完成，明天部署在docker上" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../DevInstall/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\DevInstall\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1qwGFN7vTOoPS5ULuLqyfTEgyFT" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe4f33da-4184-429c-8365-d640badcd385" name="Default Changelist" comment="" />
+      <created>1617983133600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617983133600</updated>
+      <workItem from="1617983139166" duration="8000" />
+      <workItem from="1617983176023" duration="31000" />
+      <workItem from="1617983880674" duration="1634000" />
+      <workItem from="1618031358173" duration="1716000" />
+    </task>
+    <task id="LOCAL-00001" summary="对ES的创始人还有ES和Soular的关系有了一定了解">
+      <created>1617984020779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617984020779</updated>
+    </task>
+    <task id="LOCAL-00002" summary="了解了Lucene演变成ES的过程，对ES和Solar的区别更加深入了">
+      <created>1617985424222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617985424222</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ES在Windos上部署完成，明天部署在docker上">
+      <created>1617990238213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617990238213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="对ES的创始人还有ES和Soular的关系有了一定了解" />
+    <MESSAGE value="了解了Lucene演变成ES的过程，对ES和Solar的区别更加深入了" />
+    <MESSAGE value="ES在Windos上部署完成，明天部署在docker上" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES在Windos上部署完成，明天部署在docker上" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617990253217">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1617990253217" />
+  </component>
+</project>
