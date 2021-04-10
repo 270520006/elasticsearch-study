@@ -42,17 +42,17 @@ SQL : like %狂神说%，如果是的大数据，就十分慢!索引!ElasticSear
 
 1998年9月4日，Google公司在美国硅谷成立。正如大家所知，它是一家做搜索引擎起家的公司。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps23.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps1.jpg) 
 
 无独有偶，一位名叫Doug Cutting的美国工程师，也迷上了搜索引擎。他做了一个用于文本搜索的函数库（姑且理解为软件的功能组件），命名为Lucene。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps24.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps2.jpg) 
 
 Lucene是用JAVA写成的，目标是为各种中小型应用软件加入全文检索功能。因为好用雨且开源(代码公开），非常受程序员们的欢迎。
 
 早期的时候，这个项目被发布在Doug Cutting的个人网站和SourceForge (一个开源软件网站)。后来，2001年底，Lucene成为Apache软件基金会jakarta项目的一个子项目。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps25.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps3.jpg) 
 
 2004年，Doug Cutting再接再励，在Lucene的基础上，和Apache开源伙伴Mike Cafarella合作，开发了一款可以代替当时的主搜索的开源搜索引擎，命名为Nutch。
 
@@ -66,7 +66,7 @@ Nutch在业界的影响力比Lucene更大。
 
 尤其是Google，作为互联网搜索引擎，需要存储大量的网页，并不断优化自己的搜索算法，提升搜索效率。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps26.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps4.jpg) 
 
 在这个过程中，Google确实找到了不少好办法，并且无私地分享了出来。
 
@@ -74,17 +74,17 @@ Nutch在业界的影响力比Lucene更大。
 
 第二年，也就是2004年，Doug Cutting基于Google的GFS论文，实现了分布式文件存储系统，并将它命名为NDFS ( NutchDistributed File system )。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps27.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps5.jpg) 
 
 还是2004年，Google又发表了一篇技术学术论文，介绍自己的MapReduce编程模型。这个编程模型，用于大规模数据集（大于1TB)的并行分析运算。
 
 第二年(2005年)，Doug Cutting又基于MapReduce，在Nutch搜索引擎实现了该功能。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps28.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps6.jpg) 
 
 2006年，当时依然很厉害的Yahoo(雅虎）公司，招安了Doug cutting。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps29.jpg)
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps7.jpg)
 加盟Yahoo之后，Doug Cutting将NDFS和MapReduce进行了升级改造，并重新命名为Hadoop (NDFS也改名为HDFS ，HadoopDistributed File System )。
 
 这个，就是后来大名鼎鼎的大数据框架系统―—Hadoop的由来。而Doug Cutting，则被人们称为Hadoop之父。
@@ -93,7 +93,7 @@ Nutch在业界的影响力比Lucene更大。
 
 Hadoop这个名字，实际上是Doug Cutting他儿子的黄色玩具大象的名字。所以，Hadoop的Logo，就是一只奔跑的黄色大象。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps30.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps8.jpg) 
 
 我们继续往下说。
 
@@ -101,7 +101,7 @@ Hadoop这个名字，实际上是Doug Cutting他儿子的黄色玩具大象的�
 
 这次，它们介绍了自己的BigTable。这是一种分布式数据存储系统，一种用来处理海量数据的非关系型数据库。Doug Cutting当然没有放过，在自己的hadoop系统里面，引入了BigTable，并命名为HBase。
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps31.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps9.jpg) 
 
 好吧，反年就是紧跟Google时代步伐，你出什么，我学什么。所以，Hadoop的核心部分，基本上都有Google的影子。
 
@@ -207,7 +207,7 @@ Lucene是一个全文检索引擎的架构。那什么是全文搜索引擎﹖
 
 当单纯的对已有数据进行搜索时，Solr更快:
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps32.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps10.jpg) 
 
  
 
@@ -223,13 +223,13 @@ Lucene是一个全文检索引擎的架构。那什么是全文搜索引擎﹖
 
 当实时建立索引时，Solr会产生io阻塞，查询性能较差， Elasticsearch具有明显的优势:
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps33.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps11.jpg) 
 
 随着数据量的增加，Solr的搜索效率会变得更低，而Elasticsearch却没有明显的变化:
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps34.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps12.jpg) 
 
-转变我们的搜索基础设施后从Solr Elasticsearch,我们看见一个即时~50 x提高搜索性能!![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps35.jpg)
+转变我们的搜索基础设施后从Solr Elasticsearch,我们看见一个即时~50 x提高搜索性能!![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps13.jpg)
 
  
 
@@ -257,7 +257,7 @@ Elastfcsearch vs solr总结
 
 1、解压文件即可
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps36.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps14.jpg) 
 
 2、熟悉目录
 
@@ -283,8 +283,164 @@ plugins插件!ik分词器
 
 3、打开bin目录下的elasticsearch.bat，启动访问端口9200
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps37.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps15.jpg) 
 
 4、访问测试
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml8992\wps38.jpg) 
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps16.jpg) 
+
+安装可视化界面：elastic-head
+
+1、直接github下载zip解压，https://github.com/mobz/elasticsearch-head
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps17.jpg) 
+
+2、到插件文件夹下打开package.json可以看到以来的包，然后再这个页面使用cnpm install
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps18.jpg) 
+
+依次输入：
+
+cnpm install //先安装nodejs
+
+npm run start  //启动得到文件
+
+ 
+
+ 
+
+3、出现跨域问题：
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps19.jpg) 
+
+3、到config文件下找到elasticsearch.yml
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps20.jpg) 
+
+在文件末尾配上：
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps21.jpg) 
+
+http.cors.enabled: true
+
+http.cors.allow-origin: "*"
+
+4、重启后发现可以连接了
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps22.jpg) 
+
+5、建立个索引
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps23.jpg) 
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps24.jpg) 
+
+Score是一个权重
+
+你们初学，就把es当做一个数据库!（可以建立索引(库)，文档（库中的数据!） )
+
+这个head我们就把它当做数据展示工具!我们后面所有的查询，Kibana
+
+ 
+
+ 
+
+了解ELK
+
+ELK是Elasticsearch、Logstash、Kibana三大开源框架首字母大写简称。市面上也被成为Elastic Stack。其中Elasticsearch是一个基于Lucene、分布式、通过Restful方式进行交互的近实时搜索平台框架。像类似百度、谷歌这种大数据全文搜索引擎的场景都可以使用Elasticsearch作为底层支持框架，可见Elasticsearch提供的搜索能力确实强大,市面上很多时候我们简称Elasticsearch为es.Logstash是ELK的中央数据流引擎，用于从不同目标（文件/数据存储/MQ）收集的不同格式数据，经过过滤后支持输出到不同目的地(文件/MQ/redis/elasticsearch/kafka等)。Kibana可以将elasticsearch的数据通过友好的页面展示出来，提供实时分析的功能。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps25.jpg) 
+
+收集清洗数据-->搜索，存储-->Kibana（用kibana进行搜索）
+
+ 
+
+ 
+
+ 
+
+ 
+
+***\*Kibana：\****
+
+Kibana是一个针对Elasticsearch的开源分析及可视化平台，用来搜索、查看交互存储在Elasticsearch索引中的数据。使用Kibana ,可以通过各种图表进行高级数据分析及展示。Kibana让海量数据更容易理解。它操作简单，基于浏览器的用户界面可以快速创建仪表( dashboard ) 实时显示Elasticsearch查询动态。设置Kibana非常简单。无需编码或者额外的基础架构，几分钟内就可以完成Kibana安装并启动Elasticsearch索引监测。
+
+ 
+
+1、启动测试，启动端口5601
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps26.jpg)2、开发工具!( Post、curl、head、谷歌浏览器插件测试! )
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps27.jpg) 
+
+我们之后的所有操作都在这里进行编写!
+
+ 
+
+ 
+
+3、到翻译文件夹下找到i18n
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps28.jpg) 
+
+ 
+
+4、中文配置，到config文件夹下进行配置，汉化成功，重启项目即可
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps29.jpg) 
+
+***\*IK分词器：\****
+
+什么是IK分词器?
+
+ 
+
+分词︰即把一段中文或者别的划分成一个个的关键字，我们在搜索时候会把自己的信息进行分词，会把数据库中或者索引库中的数据进行分词，然后进行一个匹配操作，默认的中文分词是将每个字看成一个词，比如“我爱狂神"会被分为"我""爱"狂""神”，这显然是不符合要求的，所以我们需要安装中文分词器ik来解决这个问题。
+
+IK提供了两个分词算法: ik_ smart和ik_max_word，其中 ik_smart为最少切分，ik_max_word为最细粒度划分!一会我们测试!
+
+如果要使用中文，建议使用ik分词器!
+
+ 
+
+1、把IK分词器解压到plugins下，这里注意分词器和elastic search一定要相同
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps30.jpg) 
+
+ 
+
+ 
+
+2、重启发现插件已经被安装
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps31.jpg) 
+
+ 
+
+3、可以使用elasticsearch-plugin list查看安装的插件
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps32.jpg) 
+
+4、使用Kibana进行IK分词
+
+ik_smart:从词库去找词，最小粒度划分
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps33.jpg) 
+
+ik_max_word:把词按词库，最大拆分
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps34.jpg) 
+
+发现问题：欧尼酱和戴斯ki是一个词，不能被分词器拆开
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps35.jpg) 
+
+去配置文件配置，配置完毕后重启：
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps36.jpg) 
+
+重启完毕后，再次使用分词器：
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml2324\wps37.jpg) 
+
+ 
