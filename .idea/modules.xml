@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/elasticsearch-study.iml" filepath="$PROJECT_DIR$/.idea/elasticsearch-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elk-study/elk-study.iml" filepath="$PROJECT_DIR$/elk-study/elk-study.iml" />
     </modules>
   </component>
 </project>
