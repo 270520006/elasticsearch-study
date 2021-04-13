@@ -139,11 +139,11 @@ class ElkStudyApplicationTests {
     @Test
     void testSearch() throws IOException {
 //      1、建立请求
-        SearchRequest searchRequest = new SearchRequest("zsp_index");
+        SearchRequest searchRequest = new SearchRequest("jd_goods");
 //      2、建立搜索对象
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
 //      3、简历搜索的工具类，使用工具类规定查找方法
-        TermQueryBuilder termQueryBuilder = QueryBuilders.termQuery("name","zsp");
+        TermQueryBuilder termQueryBuilder = QueryBuilders.termQuery("title","java");
 //        QueryBuilders.matchAllQuery();//查询所有
 //        sourceBuilder.from() //从xx开始 分页
 //        sourceBuilder.size() //长度多少 分页
