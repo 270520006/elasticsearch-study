@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/elasticsearch-study.iml" filepath="$PROJECT_DIR$/.idea/elasticsearch-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/elk-study/elk-study.iml" filepath="$PROJECT_DIR$/elk-study/elk-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdmall/jdmall.iml" filepath="$PROJECT_DIR$/jdmall/jdmall.iml" />
     </modules>
   </component>
 </project>

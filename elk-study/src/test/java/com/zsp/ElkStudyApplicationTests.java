@@ -5,6 +5,7 @@ import com.zsp.pojo.User;
 import lombok.AllArgsConstructor;
 import org.apache.lucene.util.QueryBuilder;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
+import org.elasticsearch.action.admin.indices.refresh.RefreshRequest;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.delete.DeleteResponse;
@@ -16,6 +17,7 @@ import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.support.master.AcknowledgedResponse;
+import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.client.indices.CreateIndexRequest;
@@ -110,6 +112,13 @@ class ElkStudyApplicationTests {
         request.id("9");
         DeleteResponse delete = client.delete(request, RequestOptions.DEFAULT);
         System.out.println(delete.status());
+    }
+    @Test
+    void testUpdate() throws IOException {
+        UpdateRequest updateRequest = new UpdateRequest();
+        User user = new User("ppp", 18);
+        updateRequest.index("zsp_index").id("1").doc(JSON.toJSONString(user),XContentType.JSON);
+        client.update(updateRequest,RequestOptions.DEFAULT);
     }
     @Test
     void testBluk() throws IOException {
