@@ -34,6 +34,16 @@ public class GoodListController {
         }
         return false;
     }
+    @ResponseBody
+    @GetMapping("/addSex/{keyword}")
+    public Boolean addSexData(@PathVariable("keyword") String keyword) {
+        try {
+            return goodListService.parseSexList(keyword);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
 
     @ResponseBody
     @GetMapping("/parse/{keywords}")
@@ -55,4 +65,15 @@ public class GoodListController {
         return goodListService.serchPage(keywords, pageNo, pageSize);
 
     }
+
+    @ResponseBody
+    @GetMapping("/searchh/{keywords}/{pageNo}/{pageSize}")
+    public List<Map<String, Object>> searchHighLightJD(@PathVariable("keywords") String keywords,
+                                                @PathVariable("pageNo") int pageNo,
+                                                @PathVariable("pageSize") int pageSize) throws IOException {
+
+        return goodListService.searchHighLight(keywords, pageNo, pageSize);
+
+    }
+
 }
