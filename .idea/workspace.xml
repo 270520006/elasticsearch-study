@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd801b4d-4d68-44eb-99aa-f791dad15c3a" name="Default Changelist" comment="ES整合项目完毕，目前想要将ELK整合进分布式项目中">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="dd801b4d-4d68-44eb-99aa-f791dad15c3a" name="Default Changelist" comment="准备将ELK整合MQ和Cloud做成新的项目，架构已构思完成" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +208,7 @@
       <workItem from="1618419014675" duration="338000" />
       <workItem from="1618489877811" duration="3325000" />
       <workItem from="1618546467909" duration="2724000" />
-      <workItem from="1618574050440" duration="1405000" />
+      <workItem from="1618574050440" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="springboot整合完毕，着手搭建项目使用">
       <created>1618311337554</created>
@@ -241,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618419276605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="准备将ELK整合MQ和Cloud做一个新的项目。">
+      <created>1618578091343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618578091343</updated>
+    </task>
+    <task id="LOCAL-00006" summary="准备将ELK整合MQ和Cloud做成新的项目，架构已构思完成">
+      <created>1618578160393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618578160393</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +276,9 @@
     <MESSAGE value="在不违法的情况下完成爬取京东和某站视频" />
     <MESSAGE value="用爬取的数据和ES做出了搜索，前端完成，明天实现高亮" />
     <MESSAGE value="ES整合项目完毕，目前想要将ELK整合进分布式项目中" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES整合项目完毕，目前想要将ELK整合进分布式项目中" />
+    <MESSAGE value="准备将ELK整合MQ和Cloud做一个新的项目。" />
+    <MESSAGE value="准备将ELK整合MQ和Cloud做成新的项目，架构已构思完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="准备将ELK整合MQ和Cloud做成新的项目，架构已构思完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="235" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1618318894620">
