@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd801b4d-4d68-44eb-99aa-f791dad15c3a" name="Default Changelist" comment="用爬取的数据和ES做出了搜索，前端完成，明天实现高亮">
+    <list default="true" id="dd801b4d-4d68-44eb-99aa-f791dad15c3a" name="Default Changelist" comment="ES整合项目完毕，目前想要将ELK整合进分布式项目中">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdmall/src/main/java/com/zsp/Controller/GoodListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdmall/src/main/java/com/zsp/Controller/GoodListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdmall/src/main/java/com/zsp/Service/GoodListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdmall/src/main/java/com/zsp/Service/GoodListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdmall/src/main/java/com/zsp/utils/WebParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdmall/src/main/java/com/zsp/utils/WebParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdmall/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jdmall/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +208,10 @@
       <workItem from="1618331492922" duration="5763000" />
       <workItem from="1618337367687" duration="123000" />
       <workItem from="1618376459879" duration="18576000" />
-      <workItem from="1618419014675" duration="171000" />
+      <workItem from="1618419014675" duration="338000" />
+      <workItem from="1618489877811" duration="3325000" />
+      <workItem from="1618546467909" duration="2724000" />
+      <workItem from="1618574050440" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary="springboot整合完毕，着手搭建项目使用">
       <created>1618311337554</created>
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618337446417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ES整合项目完毕，目前想要将ELK整合进分布式项目中">
+      <created>1618419276605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618419276605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +264,8 @@
     <MESSAGE value="springboot整合完毕，着手搭建项目使用" />
     <MESSAGE value="在不违法的情况下完成爬取京东和某站视频" />
     <MESSAGE value="用爬取的数据和ES做出了搜索，前端完成，明天实现高亮" />
-    <option name="LAST_COMMIT_MESSAGE" value="用爬取的数据和ES做出了搜索，前端完成，明天实现高亮" />
+    <MESSAGE value="ES整合项目完毕，目前想要将ELK整合进分布式项目中" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES整合项目完毕，目前想要将ELK整合进分布式项目中" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="235" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1618318894620">
@@ -312,10 +320,10 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="160" y="0" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1618314856184" />
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1618337458603">
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1618419289411">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1618337458603" />
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1618419289411" />
     <state x="362" y="155" key="git4idea.merge.GitPullDialog" timestamp="1618337454131">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
